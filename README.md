@@ -7,6 +7,6 @@ a simple file server written in golang
 ```bash
 -p, --port int      listening port (default 8080)
 
--r, --root string   root directory of server. (default "./")
+-r, --root string   root directory of server. (default "./root")
 ```
 

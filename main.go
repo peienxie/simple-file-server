@@ -9,7 +9,7 @@ import (
 )
 
 var port = flag.IntP("port", "p", 8080, "listening port")
-var root = flag.StringP("root", "r", "./", "root directory of server.")
+var root = flag.StringP("root", "r", "./root", "root directory of server.")
 
 func main() {
 	flag.Parse()
