@@ -1,6 +1,6 @@
 
 build:
-	go build -o bin/simple-file-server main.go 
+	go build -o bin/simple-file-server main.go
 
 # https://stackoverflow.com/questions/48973397/how-to-automatically-delete-intermediate-stage-docker-containers-from-my-system
 build-docker-image:
